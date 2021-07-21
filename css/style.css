@@ -41,16 +41,16 @@ nav li
 
 nav li a
 {
+    color: black;
+    text-decoration: none;
+    display: block;
     width: 35px;
     height: 35px;
     background-color: white;
     font-size: 20px;
-    border-radius: 50%;
-    color: black;
-    text-decoration: none;
     text-align: center;
-    display: block;
     line-height: 35px;
+    border-radius: 50%;
     margin: 20px 20px 20px 0px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
 }
@@ -87,7 +87,7 @@ section.bg-yellow
 
 .box
 {
-    width: 500px;
+    max-width: 600px;
     text-align: center;
     position: absolute;
     top: 50%;
